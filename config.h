@@ -1,0 +1,9 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define POW_SIM_DIFFICULT_BITS 11
+#define POW_SIM_MIN_TRX_CNT 6
+#define POW_SIM_MAX_TRX_CNT 10
+#define POW_SIM_TRX_SIZE 16
+
+#endif // CONFIG_H
