@@ -9,23 +9,22 @@ Environment
  - linux
 
 Pre-install
-	- $ sudo apt-get update
-	- $ sudo apt-get upgrade
-	- $ sudo apt-get install gcc
-	- $ sudo apt-get install g++
+ - $ sudo apt-get update
+ - $ sudo apt-get upgrade
+ - $ sudo apt-get install gcc
+ - $ sudo apt-get install g++
 
 Settings
-	Edit "config.h"
-	 - POW_SIM_DIFFICULT_BITS 11 // difficultyBits.
-	 - POW_SIM_MIN_TRX_CNT 6 // min tx
-	 - POW_SIM_MAX_TRX_CNT 10 // max tx
-	 - POW_SIM_TRX_SIZE 16 // size of tx
-        
-  *Difficulty bits's set easy for test
+ - Edit "config.h"
+ - POW_SIM_DIFFICULT_BITS 11 // difficultyBits.
+ - POW_SIM_MIN_TRX_CNT 6 // min tx
+ - POW_SIM_MAX_TRX_CNT 10 // max tx
+ - POW_SIM_TRX_SIZE 16 // size of tx
+ - *Difficulty bits's set easy for test
 
 build
-	- $ chmod 777 build.sh
-	- $ ./build.sh
+ - $ chmod 777 build.sh
+ - $ ./build.sh
   
 Run
   - $ ./pow_sim
